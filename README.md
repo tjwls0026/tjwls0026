@@ -6,5 +6,27 @@
 />
 </a>
 
+<h1>깃연결</h1>
 
-<h1>ㅎㅇ</h1>
+<h3>최초 연결</h3>
+
+```bash
+git init
+git remote add origin https://github.com/tjwls0026/rememind.git
+git pull origin main --allow-unrelated-histories
+```
+
+<h3>커밋 및 푸시</h3>
+
+```bash
+git add .
+git commit -m "first commit"
+git branch -m master main   # 1회만 사용
+git push -u origin main
+```
+
+<h3>jsx/tsx 프로젝트 만들기</h3>
+```bash
+npm create vite@latest rememind -- --template react-ts // tsx
+npm create vite@latest rememind -- --template react // jsx
+```
