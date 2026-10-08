@@ -26,6 +26,7 @@ git push -u origin main
 ```
 
 <h3>jsx/tsx 프로젝트 만들기</h3>
+
 ```bash
 npm create vite@latest rememind -- --template react
 npm create vite@latest rememind -- --template react-ts
