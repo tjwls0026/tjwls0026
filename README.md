@@ -20,14 +20,13 @@ git pull origin main --allow-unrelated-histories
 
 ```bash
 git add .
-git commit -m "first commit"
-git branch -m master main   # 1회만 사용
+git commit -m "커밋 메세지"
 git push -u origin main
 ```
 
 <h3>jsx/tsx 프로젝트 만들기</h3>
 
 ```bash
-npm create vite@latest rememind -- --template react
-npm create vite@latest rememind -- --template react-ts
+npm create vite@latest rememind -- --template react // jsx
+npm create vite@latest rememind -- --template react-ts // tsx
 ```
