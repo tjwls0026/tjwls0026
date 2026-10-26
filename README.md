@@ -30,3 +30,11 @@ git push -u origin main
 npm create vite@latest 프로젝트명 -- --template react // jsx
 npm create vite@latest 프로젝트명 -- --template react-ts // tsx
 ```
+
+<h3>clone 받기</h3>
+<h2>clone받을 파일을 우클릭 후 git bash here 클릭 후 명령어로</h2>
+
+```bash
+git clone _clone받을 레포지토리 주소_ .
+git clone https://github.com/JangSengJu/3J-FE.git .
+```
